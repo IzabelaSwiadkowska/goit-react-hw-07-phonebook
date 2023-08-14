@@ -1,0 +1,33 @@
+.item {
+  font-family: 'Muli';
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 3px 0;
+}
+.button {
+  border: 0;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px 8px;
+  background-color: lightblue;
+  margin-left: 20px;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3);
+}
+.button:active {
+  transform: scale(0.98);
+}
+.icon {
+  color: black;
+}
+.icon:hover {
+  color: red;
+}
+.span {
+  margin-left: 20px;
+}
+.list {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}

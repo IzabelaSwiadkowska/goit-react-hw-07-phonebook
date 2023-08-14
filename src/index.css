@@ -1,4 +1,5 @@
 @import-normalize; /* bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 body {
   margin: 0;
@@ -7,9 +8,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 50px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 35px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
